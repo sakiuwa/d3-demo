@@ -29,9 +29,14 @@ $(function() {
 	// Write a function to set your scales
 	var setScales = function() {
 		// xScale
-		
+		var xScale = d3.scale.linear()
+			.domain([,])
+			.range([,])
 
-		// yScale		
+		// yScale
+		var yScale = d3.scale.linear()
+			.domain([,])
+			.range([,])		
 	}
 
 	/* Write a function to define the positioning of your circles
@@ -40,9 +45,9 @@ $(function() {
 		- title attribute as the country of the object
 	*/
 	var circleFunc = function(circle) {
-		
-
-
+		circle.attr('cx', )
+		.attr('cy',)
+		.attr('title', )
 	}
 
 	// Write a reusable drawing function for circles
